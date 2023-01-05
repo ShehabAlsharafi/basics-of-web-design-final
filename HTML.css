@@ -1,0 +1,151 @@
+body{
+    background-color: rgb(104, 220, 249);
+    margin: 0px;
+    padding: 0px;
+}
+.kapsa{
+    width: 900px;
+    margin: 20px auto;
+    border: 2px solid black;
+}
+.header{
+    padding: 30px;
+}
+.header h2{
+    background-color: whitesmoke;
+    width: 480px;
+    border: 2px solid;
+    border-radius: 4px;
+    padding: 5px 20px;
+    color: blue;
+}
+.ust_menu{
+    background-color: gainsboro;
+    height: 40px;
+}
+.ust_menu ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+.ust_menu ul li{
+    float: left;
+}
+.ust_menu ul li a {
+   display: block;
+   width: 150px;
+   height: 40px;
+   text-align: center;
+   line-height: 40px;
+   color: black;
+   font-size: 18px;
+   text-decoration: none;
+}
+.ust_menu ul li a:hover{
+    color: blue;
+}
+ 
+.arama{
+    height: 40px;
+    line-height: 40px;
+    margin-right: 10px;
+    float: right;
+}
+
+.arama button{
+    width: 60px;
+    background-color: lightblue;
+    color: black;
+    border-radius: 5px;
+}
+.icerk{
+    background-color: white;
+    height: 700px;
+}
+.sol_taraf{ 
+    width: 600px;
+    line-height: 30px;
+    text-align: justify;
+    float: left;
+}
+
+.sol_taraf h2{ 
+    width: 600px;
+    border-bottom: 2px dashed black;
+    padding-left: 20px;
+}
+.sol1{
+    float: left;
+    margin-right: 15px;
+}
+
+ .sag_taraf{
+    width: 270px;
+    margin-left: 30px;
+    float:left;
+ }
+ .sag_taraf h3{
+    background-color: #eee;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+ }
+
+ .sag_taraf ul{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+ }
+ .sag_taraf ul li{
+    height: 50px;
+    background-color: aliceblue;
+    padding-left: 10px;
+    padding-top: 10px;
+    border-bottom: 1px solid black;
+    text-align: center;
+ }
+
+
+
+
+
+
+
+
+
+
+
+footer{
+    width: 100%;
+    height: 250px;
+    background-color: black;
+    margin-top: 80px;
+    box-shadow: 0px 0px 20px gray;    
+   
+}
+
+footer div{
+    font-size: 22px;
+    margin-top: 10px;
+    font-family: 'Tajawal', sans-serif;
+    font-weight: bold;
+    text-align: left;
+    margin-left: 60px;
+    color:rgb(0, 221, 255);
+    float: left;
+
+}
+footer div a{
+    text-decoration: none;
+    color: white;
+}
+footer div a:hover{
+    color: rgb(62, 157, 252);
+}
+footer img{
+    width: 60px;
+    border-radius: 5px;
+    background-color: #eee;
+    margin: auto;
+    margin-top: 50px;
+}
